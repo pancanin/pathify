@@ -1,6 +1,15 @@
 # Pathify
 
-Open files from path string literals. 
+Open files from path string literals.
+
+Just hover over the path and Alt + D. 
+
+Hover over path, then Alt + D.
+Hover over path, then Alt + D.
+Hover over path, then Alt + D.
+Hover over path, then Alt + D.
+Hover over path, then Alt + D.
+Hover over path, then Alt + D.
 
 ## Features
 
@@ -20,8 +29,12 @@ No settings - works out-of-the-box!
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 - Resolves absolute, relative and parent paths.
+
+### 0.0.2
+
+- Adds icon and description
 
 ---
