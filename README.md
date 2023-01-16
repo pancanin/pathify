@@ -37,4 +37,8 @@ No settings - works out-of-the-box!
 
 - Adds icon and description
 
+### 0.0.3
+
+- Adds keywords
+
 ---
