@@ -26,7 +26,7 @@ function activate(context) {
 
 			var resolvedPath;
 
-			if (strippedFromQuotes.startsWith("..") || strippedFromQuotes.startsWith('.')) {
+			if (strippedFromQuotes.startsWith('.')) {
 				// relative path
 				let segments = strippedFromQuotes.split("/");
 
@@ -36,6 +36,7 @@ function activate(context) {
 			}
 
 			if (!fs.existsSync(resolvedPath)) {
+				vscode.window.showInformationMessage("File does not exist.")
 				return;
 			}
 

@@ -2,7 +2,7 @@
   "name": "pathify",
   "displayName": "pathify",
   "description": "Open file from path string. Can be absolute or relative path!",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "valeripublish",
   "icon": "images/pathify-icon.png",
   "keywords": ["path", "open", "string", "relative", "absolute"],
